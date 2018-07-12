@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <group>
+        <item android:title="Категории" android:onClick="onStartupClick"/>
+        <item android:title="@string/first_lunch" android:onClick="onGroupClick"/>
+        <item android:title="@string/second_lunch" android:onClick="onGroupClick" />
+        <item android:title="@string/snacks" android:onClick="onGroupClick" />
+        <item android:title="@string/deserts" android:onClick="onGroupClick" />
+    </group>
+
+</menu>
